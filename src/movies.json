@@ -1,0 +1,54 @@
+{
+  "movies": [
+    {
+      "title": "Spirited Away",
+      "moods": ["happy", "fantasy", "adventure"],
+      "description": "During her family's move to the suburbs, a sullen 10-year-old girl wanders off into a world ruled by gods, witches, and spirits, and where humans are changed into beasts.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/d/d9/Spirited_Away_poster.png",
+      "reviews": [
+        "A masterpiece of animation.",
+        "Visually stunning and emotionally resonant."
+      ]
+    },
+    {
+      "title": "The Shawshank Redemption",
+      "moods": ["sad", "drama", "inspiring"],
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",
+      "reviews": [
+        "One of the greatest movies ever made.",
+        "A powerful story of hope and friendship."
+      ]
+    },
+    {
+      "title": "Pulp Fiction",
+      "moods": ["action", "comedy", "crime"],
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+      "reviews": [
+        "Quentin Tarantino at his best.",
+        "Stylish, funny, and endlessly quotable."
+      ]
+    },
+    {
+      "title": "The Dark Knight",
+      "moods": ["action", "thriller", "dark"],
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/8/8a/Dark_knight.jpg",
+      "reviews": [
+        "A superhero film that transcends the genre.",
+        "Heath Ledger's Joker is iconic."
+      ]
+    },
+    {
+      "title": "La La Land",
+      "moods": ["happy", "romantic", "musical"],
+      "description": "A jazz pianist falls for an aspiring actress in Los Angeles.",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29_poster.jpg",
+      "reviews": [
+        "A visually beautiful and emotionally engaging musical.",
+        "Charming and bittersweet."
+      ]
+    }
+  ]
+}

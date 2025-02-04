@@ -1,0 +1,184 @@
+body {
+  background: linear-gradient(180deg, #4a284f 0%, #2c1833 100%);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header .logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.app-header h1 {
+  font-size: 2.8em;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.app-header .subtitle {
+  font-size: 1.1em;
+  color: #ddd;
+}
+
+.api-key-input {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.api-key-input input[type="password"] {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  width: 70%;
+  max-width: 500px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.api-key-input input[type="password"]::placeholder {
+  color: #ccc;
+}
+
+
+.input-section {
+  display: flex;
+  margin-bottom: 40px;
+  width: 100%;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+  width: 70%;
+  max-width: 500px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+input[type="text"]::placeholder {
+  color: #ccc;
+}
+
+button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background-color:  rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  border-left: none;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.search-icon {
+  display: inline-block;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+
+.recommendation-section {
+  background-color: #fff;
+  color: #333;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.recommendation-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.recommendation-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.recommendation-section p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  text-align: left;
+}
+
+.reviews {
+  text-align: left;
+  margin-top: 25px;
+  padding-top: 25px;
+  border-top: 1px solid #eee;
+}
+
+.reviews h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}
+
+.reviews ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  color: #777;
+}
+
+.reviews li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.error-message {
+  color: #ff6b6b;
+  margin-top: 20px;
+}
